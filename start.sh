@@ -1,5 +1,6 @@
 #! /usr/bin/env bash
 
+
 ./set_token.sh
 bundle exec start_services &
 TRIAGE_PID=$!
